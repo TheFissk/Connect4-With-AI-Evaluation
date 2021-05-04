@@ -2,9 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using GeneticSharp;
 
 namespace Connect_4
 {
@@ -382,6 +380,8 @@ namespace Connect_4
             return random.Next(-100,100);
         }
     }
+
+
     enum PlayStatus
     {
         Win,
